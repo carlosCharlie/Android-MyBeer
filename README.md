@@ -2,7 +2,7 @@
 
 **MEMORIA DE PROYECTO**
 
-![](media/image10.png)
+<img src='media/image10.png' width='20%' height='20%'>
 
 **Autores: Carlos Castellanos y Víctor Chamizo**
 
@@ -176,7 +176,7 @@ El módulo principal consiste en un mapa que nos mostrará nuestra
 geolocalización, así como las cervecerías (en caso de tener alguna)
 situadas en sus respectivas localizaciones.
 
-![](media/image8.png)![](media/image9.png)
+<img src='media/image8.png' width='20%' height='20%'><img src='media/image9.png' width='20%' height='20%'>
 
 Figura 3.3.1.1 Figura 3.3.1.2
 
@@ -229,7 +229,7 @@ Por último, al pulsar sobre cada una de las cervecerías listadas nos
 redirigirá a una vista donde podremos apreciar la información de la
 cervecería con más detalle (Figura 3.3.2.3).
 
-![](media/image1.png)![](media/image6.png)![](media/image2.png)
+<img src='media/image1.png' width='20%' height='20%'><img src='media/image6.png' width='20%' height='20%'><img src='media/image2.png' width='20%' height='20%'>
 
 Figura 3.3.2.1 Figura 3.3.2.2 Figura 3.3.2.3
 
@@ -255,7 +255,7 @@ cerveza (Figura 3.3.3.3).
 Además, aquí también podremos eliminar una cerveza al igual que en el
 anterior módulo: pulsando sobre la ‘X’ a la derecha en la lista.
 
-![](media/image4.png)![](media/image7.png)![](media/image5.png)
+<img src='media/image4.png' width='20%' height='20%'><img src='media/image7.png' width='20%' height='20%'><img src='media/image5.png' width='20%' height='20%'>
 
 Figura 3.3.3.1 Figura 3.3.3.2 Figura 3.3.3.3
 
