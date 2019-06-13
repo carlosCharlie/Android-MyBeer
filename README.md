@@ -1,6 +1,6 @@
-(Converted from an original docx document)
+<p align="center">(Converted from an original docx document)</p>
 
-# MEMORIA DE PROYECTO
+<h1 align="center">MEMORIA DE PROYECTO</h1>
 
 <p align="center"><img src='media/image10.png' width='70%' height='70%'><p>
 
