@@ -1,8 +1,8 @@
-#**Programación de Aplicaciones para Dispositivos Móviles**
+# **Programación de Aplicaciones para Dispositivos Móviles**
 
-#MEMORIA DE PROYECTO
+# MEMORIA DE PROYECTO
 
-<img align="center" src='media/image10.png' width='70%' height='70%'>
+<p align="center"><src='media/image10.png' width='70%' height='70%'></p>
 
 **Autores: Carlos Castellanos y Víctor Chamizo**
 
