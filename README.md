@@ -2,7 +2,7 @@
 
 **MEMORIA DE PROYECTO**
 
-<img src='media/image10.png' width='20%' height='20%'>
+<img src='media/image10.png' width='50%' height='50%'>
 
 **Autores: Carlos Castellanos y Víctor Chamizo**
 
