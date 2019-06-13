@@ -1,6 +1,6 @@
 # MEMORIA DE PROYECTO
 
-<src='media/image10.png' width='70%' height='70%' margin="auto">
+<p align="center"><img src='media/image10.png' width='70%' height='70%'><p>
 
 **Autores: Carlos Castellanos y Víctor Chamizo**
 
