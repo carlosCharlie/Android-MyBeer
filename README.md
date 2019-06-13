@@ -1,1 +1,531 @@
-<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"></head><body class="c37"><div><p class="c8 c34"><span class="c1"></span></p></div><p class="c41"><span class="c20">Programaci&oacute;n de Aplicaciones para Dispositivos M&oacute;viles</span></p><p class="c8 c41"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c32"></span></p><p class="c19"><span class="c40">MEMORIA DE PROYECTO</span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 244.50px; height: 280.46px;"><img alt="" src="images/image8.png" style="width: 244.50px; height: 280.46px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c20"></span></p><p class="c34"><span class="c20">Autores: Carlos Castellanos y V&iacute;ctor Chamizo</span></p><p class="c0"><span class="c20"></span></p><p class="c19"><span class="c20">&Iacute;NDICE</span></p><p class="c0"><span class="c20"></span></p><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5wp9fb8grn7c-0 start" start="1"><li class="c27 c10"><span class="c1">Introducci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;....... 2</span></li><li class="c27 c10"><span class="c1">Manual de instalaci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;... 2</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-1 start" start="1"><li class="c9"><span class="c1">Introducci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 2</span></li><li class="c9"><span class="c1">Requisitos &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;. 2</span></li><li class="c9"><span class="c1">Instalaci&oacute;n del APK &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;. 3</span></li><li class="c9"><span class="c1">Configuraci&oacute;n de proyecto en Android Studio &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.&hellip;... 3 </span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-0" start="3"><li class="c10 c27"><span class="c1">Manual de usuario &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;. 3</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-1 start" start="1"><li class="c9"><span class="c1">Introducci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 3</span></li><li class="c9"><span class="c1">Funcionalidad &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;... 4</span></li><li class="c9"><span class="c1">M&oacute;dulos &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;. 4</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-2 start" start="1"><li class="c24"><span class="c1">Principal &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;........ 4</span></li><li class="c24"><span class="c1">Cervecer&iacute;as &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 5</span></li><li class="c24"><span class="c1">Cervezas &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;...&hellip;... 6</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-0" start="4"><li class="c27 c10"><span class="c1">Arquitectura &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.&hellip;&hellip;..&hellip;&hellip;&hellip;. 7</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-1 start" start="1"><li class="c9"><span class="c1">Introducci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 7 </span></li><li class="c9"><span class="c1">Dise&ntilde;o &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;... 7</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-0" start="5"><li class="c27 c10"><span class="c1">Consideraciones t&eacute;cnicas &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip; 8</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-1 start" start="1"><li class="c9"><span class="c1">Introducci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 8</span></li><li class="c9"><span class="c1">General &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 8</span></li><li class="c9"><span class="c1">M&oacute;dulos &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;. 9</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-2 start" start="1"><li class="c24"><span class="c1">Principal &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;........ 9</span></li><li class="c24"><span class="c1">Cervecer&iacute;as y cervezas &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 9</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-0" start="6"><li class="c27 c10"><span class="c1">Desarrollo &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip; 9</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-1 start" start="1"><li class="c9"><span class="c1">Introducci&oacute;n &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 9</span></li><li class="c9"><span class="c1">Aportaciones &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.. 10</span></li><li class="c9"><span class="c1">Metodolog&iacute;a de trabajo &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;. 10</span></li><li class="c9"><span class="c1">Conclusiones &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;..&hellip; 10</span></li></ol><ol class="c12 lst-kix_5wp9fb8grn7c-0" start="7"><li class="c19 c10 c28"><span class="c1">Bibliograf&iacute;a &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip; 11</span></li></ol><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0 start" start="1"><li class="c6"><h1 id="h.rkee8izd687d" style="display:inline"><span class="c17">Introducci&oacute;n</span></h1></li></ol><p class="c19"><span class="c1">Este documento de memoria es realizado para el proyecto de la asignatura de Programaci&oacute;n de Aplicaciones para Dispositivos M&oacute;viles (PAD).</span></p><p class="c4"><span class="c1"></span></p><p class="c15"><span class="c1">El documento proporciona las indicaciones y herramientas necesarias para el uso correcto de la aplicaci&oacute;n m&oacute;vil MyBeer. Adem&aacute;s, contiene un desglose detallado de la arquitectura interna y consideraciones t&eacute;cnicas llevadas a cabo en el desarrollo del proyecto, con la finalidad de poder acercar al usuario al entendimiento completo de la aplicaci&oacute;n, y as&iacute; mismo, ratificar la correcta implementaci&oacute;n de los requisitos impuestos por el profesor de la asignatura para llevar a cabo dicho proyecto.</span></p><p class="c4"><span class="c1"></span></p><p class="c15"><span class="c1">La aplicaci&oacute;n fue dise&ntilde;ada para la gesti&oacute;n de cervecer&iacute;as y cervezas por parte del usuario, con la finalidad de poder localizar los establecimientos en un mapa y poder guardar la informaci&oacute;n de dichos elementos para que el usuario pueda acceder a ellos siempre que quiera.</span></p><p class="c25 c8"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0" start="2"><li class="c6"><h1 id="h.6e08jr6w3epk" style="display:inline"><span class="c17">Manual de instalaci&oacute;n</span></h1></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-1 start" start="1"><li class="c3"><h2 id="h.glfoqq26u544" style="display:inline"><span class="c13">Introducci&oacute;n</span></h2></li></ol><p class="c19"><span class="c1">Esta secci&oacute;n proporciona los detalles y requerimientos para la correcta instalaci&oacute;n de la aplicaci&oacute;n m&oacute;vil MyBeer, as&iacute; como una correcta configuraci&oacute;n de la misma en el SDK elegido para su desarrollo y despliegue.</span></p><p class="c4"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="2"><li class="c3"><h2 id="h.glfoqq26u544-1" style="display:inline"><span class="c13">Requisitos</span></h2></li></ol><p class="c19"><span class="c1">La aplicaci&oacute;n para este proyecto est&aacute; desarrollada de forma nativa para Android, por lo que el dispositivo del usuario ha de tener dicho sistema instalado. </span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span class="c1">Adem&aacute;s, el sistema operativo debe tener como m&iacute;nimo la versi&oacute;n 23 de compilaci&oacute;n del SDK (Android 6.0, Marshmallow), aunque la versi&oacute;n de SDK que se ha utilizado para el desarrollo de la aplicaci&oacute;n es la 28 (Android 9.0, Pie).</span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span class="c1">La aplicaci&oacute;n precisa de localizaci&oacute;n mediante GPS por lo que ser&aacute; necesario tener activada esta opci&oacute;n en nuestro dispositivo m&oacute;vil, as&iacute; como acceso a la red de datos o a una red wifi. As&iacute; mismo, la primera vez que iniciemos la aplicaci&oacute;n, esta nos solicitar&aacute; permisos para poder acceder a dichos servicios GPS.</span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="3"><li class="c3"><h2 id="h.glfoqq26u544-2" style="display:inline"><span class="c13">Instalaci&oacute;n del APK</span></h2></li></ol><p class="c21"><span class="c1">A continuaci&oacute;n se detallan los pasos a seguir para la correcta instalaci&oacute;n de la aplicaci&oacute;n en el dispositivo m&oacute;vil:</span></p><p class="c21 c8"><span class="c1"></span></p><ol class="c12 lst-kix_tdc5evwda2oh-0 start" start="1"><li class="c22"><span>Descargar el archivo </span><span class="c5">myBeerInstaller.apk</span><span class="c1">&nbsp;en el m&oacute;vil.</span></li><li class="c22"><span>Ejecutar el archivo </span><span class="c5">myBeerInstaller.apk</span><span class="c1">.</span></li><li class="c14 c28"><span>Por motivos de seguridad, Android suele tener desactivado el permiso para instalar aplicaciones ajenas a Play Store (</span><span class="c5">Aplicaciones de origen desconocido</span><span class="c1">). En caso de tener esta opci&oacute;n habilitada, se puede pasar directamente al paso 4.</span></li></ol><p class="c4 c39"><span class="c1"></span></p><p class="c14"><span class="c1">En caso contrario, se le pedir&aacute; que active este permiso y se le redirigir&aacute; a la ventana de ajustes donde aparece tal opci&oacute;n. Tambi&eacute;n se puede acceder directamente mediante los siguientes pasos:</span></p><p class="c4 c10"><span class="c1"></span></p><p class="c14"><span class="c1">Ajustes &gt; Ajustes avanzados &gt; Seguridad &gt; Aplicaciones de origen desconocido.</span></p><p class="c14 c8"><span class="c30"></span></p><p class="c14"><span class="c1">NOTA: La navegaci&oacute;n a trav&eacute;s de los ajustes puede variar ligeramente en funci&oacute;n de la versi&oacute;n de Android y de la capa de personalizaci&oacute;n del fabricante.Se recomienda volver a desactivar esta opci&oacute;n una vez instalada la aplicaci&oacute;n</span></p><p class="c4"><span class="c1"></span></p><ol class="c12 lst-kix_tdc5evwda2oh-0" start="4"><li class="c14 c28"><span>Volver a ejecutar el archivo </span><span class="c5">myBeerInstaller.apk</span><span class="c1">&nbsp;y finalizar la instalaci&oacute;n.</span></li></ol><p class="c4"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="4"><li class="c3"><h2 id="h.glfoqq26u544-3" style="display:inline"><span class="c13">Configuraci&oacute;n de proyecto en Android Studio</span></h2></li></ol><p class="c15"><span class="c1">En primer lugar debemos abrir el proyecto en Android Studio (File &gt; Open...). A continuaci&oacute;n, debemos construir el proyecto para su correcto uso y para que todas las librer&iacute;as e importaciones de API&acute;s externas funcionen correctamente (Build &gt; Make Project).</span></p><p class="c4"><span class="c1"></span></p><p class="c15"><span class="c1">Una vez que el proceso anteriormente descrito finalice, nuestro proyecto estar&aacute; listo para continuar con su desarrollo.</span></p><p class="c8 c25"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0" start="3"><li class="c6"><h1 id="h.14vachcvs9q7" style="display:inline"><span class="c17">Manual de usuario</span></h1></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-1 start" start="1"><li class="c3"><h2 id="h.8z524odtvy2f" style="display:inline"><span class="c13">Introducci&oacute;n</span></h2></li></ol><p class="c19"><span class="c1">Este manual proporciona los detalles y requerimientos para el uso de la aplicaci&oacute;n m&oacute;vil MyBeer. Los siguientes ep&iacute;grafes proporcionan los detalles y requerimientos necesarios &nbsp;para el uso correcto de la aplicaci&oacute;n m&oacute;vil, con la finalidad de brindar al usuario una herramienta que asegure un uso satisfactorio de la misma.</span></p><p class="c36 c8"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="2"><li class="c3"><h2 id="h.8z524odtvy2f-4" style="display:inline"><span class="c13">Funcionalidad</span></h2></li></ol><p class="c19"><span class="c1">La funcionalidad principal de la aplicaci&oacute;n est&aacute; formada por tres m&oacute;dulos (Principal, Cervecer&iacute;as y Cervezas), que son accesibles a trav&eacute;s de un men&uacute; lateral. A dicho men&uacute; podr&aacute; accederse pulsando sobre el bot&oacute;n superior izquierdo de la interfaz o bien deslizando el dedo desde la parte izquierda de la pantalla hacia la parte derecha.</span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span class="c1">Los distintos m&oacute;dulos y sus funcionalidades ser&aacute; explicados en el siguiente ep&iacute;grafe (3.3 M&oacute;dulos).</span></p><p class="c4"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="3"><li class="c28 c33"><h2 id="h.8z524odtvy2f-5" style="display:inline"><span class="c13">M&oacute;dulos</span></h2></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-2 start" start="1"><li class="c29 c28"><h3 id="h.ndd0fmj6317n" style="display:inline"><span class="c23">Principal</span></h3></li></ol><p class="c2"><span class="c1">El m&oacute;dulo principal consiste en un mapa que nos mostrar&aacute; nuestra geolocalizaci&oacute;n, as&iacute; como las cervecer&iacute;as (en caso de tener alguna) situadas en sus respectivas localizaciones.</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 176.00px; height: 344.39px;"><img alt="" src="images/image6.png" style="width: 176.00px; height: 367.87px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 176.00px; height: 343.53px;"><img alt="" src="images/image9.png" style="width: 176.00px; height: 367.62px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c2"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Figura 3.3.1.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Figura 3.3.1.2</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">Las cervecer&iacute;as pueden mostrarse de diferentes colores seg&uacute;n su estado. En primer lugar, las cervecer&iacute;as que se encuentran en color amarillo son las que el usuario ha calificado como positivas (&ldquo;Me gusta&rdquo;), por otro lado aquellas que se encuentran de color rojo son aquellas calificadas de forma negativa (&ldquo;No me gusta&rdquo;), por &uacute;ltimo, podemos encontrarnos cervecer&iacute;as en color gris, lo que significa que el usuario la ha introducido como &ldquo;pendiente&rdquo;, es decir, a&uacute;n no las ha visitado (Figura 3.3.1.1).</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">Cabe destacar que al pulsar sobre una cervecer&iacute;a, aparecer&aacute; el nombre que el usuario eligi&oacute; para ella en el momento de a&ntilde;adirlas.</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">Y por &uacute;ltimo, en la parte inferior derecha podemos observar un bot&oacute;n flotante, el cual si pulsamos sobre &eacute;l, nos redirigir&aacute; de forma autom&aacute;tica a nuestra posici&oacute;n en el mapa (Figura 3.3.1.2).</span></p><p class="c4 c31"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-2" start="2"><li class="c28 c29"><h3 id="h.tp2b8ytbk4qw" style="display:inline"><span class="c23">Cervecer&iacute;as</span></h3></li></ol><p class="c2"><span class="c1">El m&oacute;dulo &lsquo;cervecer&iacute;as&rsquo; tiene dos funcionalidades principales: a&ntilde;adir una nueva cervecer&iacute;a y listar las cervecer&iacute;as que el usuario ha guardado.</span></p><p class="c0"><span class="c1"></span></p><p class="c2"><span class="c1">La primera funcionalidad consiste en un formulario en el que tendremos que introducir la direcci&oacute;n de la cervecer&iacute;a (una vez seleccionada podremos visualizarla en el mapa), el nombre que el usuario quiere darle a dicha cervecer&iacute;a y el estado; recordemos que estos estados son: &ldquo;Me gusta&rdquo;, &ldquo;No me gusta&rdquo; y &ldquo;Pendiente&rdquo;.</span></p><p class="c2"><span class="c1">Una vez hayamos completado el formulario podremos a&ntilde;adir la cervecer&iacute;a pulsando sobre el bot&oacute;n situado en la parte inferior (Figura 3.3.2.1).</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">NOTA: todos los campos deben estar completados, de lo contrario nos aparecer&aacute; un mensaje de advertencia indic&aacute;ndonos el error y no podremos a&ntilde;adir la cervecer&iacute;a cuando pulsemos el bot&oacute;n.</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">La otra funcionalidad principal de este m&oacute;dulo consiste en una lista con las diferentes cervecer&iacute;as que el usuario ha ido a&ntilde;adiendo (Figura 3.3.2.2). En cada una de las cervecer&iacute;as listadas podemos apreciar que aparece indicado su nombre y el icono que refleja el estado de la cervecer&iacute;a, siguiendo el mismo patr&oacute;n que se ha comentado en el m&oacute;dulo anterior (3.3.1. Principal).</span></p><p class="c2"><span class="c1">Adem&aacute;s se podr&aacute; eliminar una cervecer&iacute;a de la lista pulsando en la &lsquo;X&rsquo; que aparece a su derecha.</span></p><p class="c0"><span class="c1"></span></p><p class="c2"><span class="c1">Por &uacute;ltimo, al pulsar sobre cada una de las cervecer&iacute;as listadas nos redirigir&aacute; a una vista donde podremos apreciar la informaci&oacute;n de la cervecer&iacute;a con m&aacute;s detalle (Figura 3.3.2.3).</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c19 c38"><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 176.00px; height: 343.10px;"><img alt="" src="images/image1.png" style="width: 176.00px; height: 369.78px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 178.00px; height: 342.85px;"><img alt="" src="images/image5.png" style="width: 178.00px; height: 368.65px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 186.16px; height: 345.00px;"><img alt="" src="images/image4.png" style="width: 186.16px; height: 385.95px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c19"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Figura 3.3.2.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Figura 3.3.2.2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Figura 3.3.2.3</span></p><p class="c36 c8"><span class="c1"></span></p><p class="c8 c36"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-2" start="3"><li class="c29 c28"><h3 id="h.tp2b8ytbk4qw-6" style="display:inline"><span class="c23">Cervezas</span></h3></li></ol><p class="c2"><span class="c1">El m&oacute;dulo &lsquo;cervezas&rsquo; al igual que el m&oacute;dulo cervecer&iacute;as est&aacute; constituido de dos funcionalidades principales: a&ntilde;adir una nueva cerveza y listas las cervezas guardadas por el usuario.</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">En la funcionalidad a&ntilde;adir tendremos un formulario muy similar al utilizado en a&ntilde;adir cervecer&iacute;a, en el que tendremos que completar todos los campos mostrados y proceder posteriormente a a&ntilde;adir una nueva cerveza (Figura 3.3.3.1). Al igual que en el m&oacute;dulo anterior, es necesario que todos los campos del formulario est&eacute;n completados para poder a&ntilde;adir la cerveza.</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2"><span class="c1">La funcionalidad &lsquo;listar&rsquo; consiste en mostrar, de forma id&eacute;ntica a &lsquo;listar cervecer&iacute;as&rsquo;, el conjunto de cervezas guardadas por el usuario (Figura 3.3.3.2). Podremos pulsar sobre cada una de las cervezas, lo que nos mostrar&aacute; una interfaz m&aacute;s detallada con la informaci&oacute;n de dicha cerveza (Figura 3.3.3.3).</span></p><p class="c2"><span class="c1">Adem&aacute;s, aqu&iacute; tambi&eacute;n podremos eliminar una cerveza al igual que en el anterior m&oacute;dulo: pulsando sobre la &lsquo;X&rsquo; a la derecha en la lista.</span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c19 c38"><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 180.00px; height: 351.91px;"><img alt="" src="images/image3.png" style="width: 180.00px; height: 375.63px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 178.00px; height: 347.91px;"><img alt="" src="images/image2.png" style="width: 178.00px; height: 373.85px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span style="overflow: hidden; display: inline-block; margin: 0.00px -0.00px; border: 1.33px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 180.00px; height: 350.16px;"><img alt="" src="images/image7.png" style="width: 180.00px; height: 377.09px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c2 c8"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Figura 3.3.3.1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Figura 3.3.3.2 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Figura 3.3.3.3</span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0" start="4"><li class="c6"><h1 id="h.5wgub34kx4n6" style="display:inline"><span class="c17">Arquitectura</span></h1></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-1 start" start="1"><li class="c3"><h2 id="h.7mzh6d5x2vno" style="display:inline"><span class="c13">Introducci&oacute;n</span></h2></li></ol><p class="c19"><span>En el siguiente cap&iacute;tulo s</span><span>e detallar&aacute;n las diferentes capas de las que consta la aplicaci&oacute;n, as&iacute; como la organizaci&oacute;n interna de la misma, con el fin de que la aplicaci&oacute;n sea mantenible y f&aacute;cil de comprender para posibles desarrollos de mejora o ampliaci&oacute;n en el futuro.</span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="2"><li class="c3"><h2 id="h.7mzh6d5x2vno-7" style="display:inline"><span class="c13">Dise&ntilde;o</span></h2></li></ol><p class="c19"><span class="c1">La aplicaci&oacute;n sigue una arquitectura multicapa; cada una de dichas capas sigue una finalidad de abstracci&oacute;n bien diferenciadas, aportando as&iacute; completa independencia unas de otras. A continuaci&oacute;n, detallaremos cada una de las capas:</span></p><p class="c0"><span class="c1"></span></p><ul class="c12 lst-kix_adkridwdxyf0-0 start"><li class="c19 c10 c28"><span class="c5">Capa de presentaci&oacute;n</span><span>:</span><span>&nbsp;representada por el paquete </span><span class="c5">activities</span><span class="c1">, es la encargada de renderizar las vistas para que el usuario obtenga el resultado esperado en todo momento. Esta capa, aunque no se encarga de la l&oacute;gica de la aplicaci&oacute;n, si realiza peque&ntilde;as validaciones que est&aacute;n estrechamente ligadas al formato de entrada (por ejemplo para evitar que los datos lleguen con campos vac&iacute;os), y as&iacute;, de esta forma, garantizar que la experiencia de usuario sea m&aacute;s satisfactoria.</span></li></ul><p class="c0 c10"><span class="c1"></span></p><ul class="c12 lst-kix_adkridwdxyf0-0"><li class="c19 c10 c28"><span class="c5">Capa de negocio</span><span class="c1">: formada por los servicios de la aplicaci&oacute;n, se encuentra ubicada en el paquete model. En esta capa tiene lugar toda la l&oacute;gica de la aplicaci&oacute;n, encargada de que se cumplan las reglas de negocio necesarias para el correcto funcionamiento de la misma. Existe un servicio de aplicaci&oacute;n por cada m&oacute;dulo (Principal, Cervecer&iacute;a y Cerveza).</span></li></ul><p class="c0 c10"><span class="c1"></span></p><ul class="c12 lst-kix_adkridwdxyf0-0"><li class="c19 c10 c28"><span class="c5">&nbsp;Capa de integraci&oacute;n</span><span>: capa encargada de comunicarse con el dispositivo m&oacute;vil para la lectura y escritura de los datos necesarios para que la aplicaci&oacute;n se desarrolle correctamente. Se encuentra en el paquete </span><span class="c5">wrapper</span><span>&nbsp;y est&aacute; formada por una &uacute;nica clase llamada </span><span class="c5">FileManager </span><span>que se encarga de implementar los m&eacute;todos de todos los m&oacute;dulos.</span></li></ul><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0" start="5"><li class="c6"><h1 id="h.hdp4rrp351tp" style="display:inline"><span class="c17">Consideraciones t&eacute;cnicas</span></h1></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-1 start" start="1"><li class="c3"><h2 id="h.slgi84cef70u" style="display:inline"><span class="c13">Introducci&oacute;n</span></h2></li></ol><p class="c19"><span class="c1">En el siguiente cap&iacute;tulo se detallar&aacute;n los aspectos t&eacute;cnicos llevados a cabo a lo largo del desarrollo de la aplicaci&oacute;n tratando as&iacute; de plasmar de forma clara y concisa que la declaraci&oacute;n de requisitos previos al desarrollo del proyecto han sido implementados satisfactoriamente.</span></p><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="2"><li class="c28 c42"><h2 id="h.9fz9omnsnfh" style="display:inline"><span class="c13">General</span></h2></li></ol><p class="c21"><span class="c1">Como parte generalizada de la implementaci&oacute;n de los requisitos podemos destacar la presencia en toda la aplicaci&oacute;n de los siguientes aspectos:</span></p><p class="c21 c8"><span class="c1"></span></p><ul class="c12 lst-kix_o2wv1e3z3v3m-0 start"><li class="c21 c10 c28"><span class="c5">Visualizaci&oacute;n apropiada en diferentes configuraciones de pantalla</span><span class="c1">: se ha cuidado el aspecto visual de la de aplicaci&oacute;n incidiendo especialmente en la visualizaci&oacute;n vertical de la misma, adem&aacute;s se ha probado en m&uacute;ltiples plataformas con diferentes configuraciones de pantalla con el fin de que la aplicaci&oacute;n tenga un uso &oacute;ptimo y satisfactorio en el mayor n&uacute;mero de dispositivos posibles.</span></li></ul><p class="c21 c8"><span class="c1"></span></p><ul class="c12 lst-kix_o2wv1e3z3v3m-0"><li class="c21 c10 c28"><span class="c5">Almacenamiento permanente de la informaci&oacute;n</span><span class="c1">: toda el desarrollo relacionado con el almacenamiento de la informaci&oacute;n de la aplicaci&oacute;n (cervecer&iacute;as y cervezas) se ha concebido de forma que dicha informaci&oacute;n quede registrada de forma permanente en el dispositivo del usuario. De esta forma logramos que el intercambio de informaci&oacute;n sea m&aacute;s r&aacute;pido, mejorando as&iacute;, la experiencia del usuario.</span></li></ul><p class="c21 c8"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="3"><li class="c33 c28"><h2 id="h.5kkp0uy5tdvf" style="display:inline"><span class="c13">M&oacute;dulos</span></h2></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-2 start" start="1"><li class="c29 c28"><h3 id="h.nfeop0sglg6z" style="display:inline"><span class="c23">Principal</span></h3></li></ol><p class="c18"><span>En el m&oacute;dulo principal se ha implementado el requisito: </span><span class="c5">uso de al menos un servicio externo a la aplicaci&oacute;n</span><span class="c1">. Se ha utilizado la API de mapas MapBox que nos ha permitido implementar la renderizaci&oacute;n del mapa que muestra la geolocalizaci&oacute;n del dispositivo del usuario as&iacute; como visualizar el posicionamiento de las diferentes cervecer&iacute;as que el usuario haya querido guardar.</span></p><p class="c18 c8"><span class="c1"></span></p><p class="c18"><span class="c1">Adem&aacute;s de las caracter&iacute;sticas comentadas anteriormente este servicio externo nos permite navegar con total libertad por todo el mapa renderizado as&iacute; como hacer b&uacute;squedas completas o parciales de localizaciones en cualquier parte de dicho mapa.</span></p><p class="c0 c43"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-2" start="2"><li class="c29 c28"><h3 id="h.nfeop0sglg6z-8" style="display:inline"><span class="c23">Cervecer&iacute;as y cervezas</span></h3></li></ol><p class="c18"><span class="c1">En ambos m&oacute;dulos se han implementado los siguientes requisitos:</span></p><p class="c21 c8"><span class="c1"></span></p><ul class="c12 lst-kix_205f4t975yht-0 start"><li class="c21 c28 c35"><span class="c5">Un m&iacute;nimo de dos formularios diferentes</span><span class="c1">: a la hora de registrar una nueva cervecer&iacute;a o cerveza el usuario cuenta con dos formularios diferenciados (cada uno accesible desde su parte correspondiente del m&oacute;dulo) en el que se ven reflejados los distintos campos necesarios para completar la informaci&oacute;n de registro de ambos m&oacute;dulos.</span></li></ul><p class="c21 c8 c11"><span class="c1"></span></p><ul class="c12 lst-kix_205f4t975yht-0"><li class="c21 c28 c35"><span class="c5">Una parte desarrollada con tecnolog&iacute;as web, con interacci&oacute;n con la parte nativa</span><span>: al igual que con el requisito anterior, cada m&oacute;dulo consta de una p&aacute;gina web que consiste en mostrar la informaci&oacute;n relacionada con la cervecer&iacute;a o cerveza seleccionada desde la lista de la interfaz anterior, pudiendo interaccionar con la parte nativa pulsando el bot&oacute;n </span><span class="c5">back </span><span class="c1">de la parte superior izquierda de la pantalla que nos permite retornar a las listas anteriormente mostradas.</span></li></ul><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0" start="6"><li class="c6"><h1 id="h.cxiz5xqcapqa" style="display:inline"><span class="c17">Desarrollo</span></h1></li></ol><ol class="c12 lst-kix_5pjpt7rdaq9n-1 start" start="1"><li class="c3"><h2 id="h.22qhq3c86rfh" style="display:inline"><span class="c13">Introducci&oacute;n</span></h2></li></ol><p class="c19"><span class="c1">En el siguiente cap&iacute;tulo se comentar&aacute; cada una de las aportaciones que han hecho los componentes del grupo a lo largo de la implementaci&oacute;n del proyecto as&iacute; como las herramientas de desarrollo empleadas y las conclusiones finales que la realizaci&oacute;n de este proyecto les haya podido generar a los desarrolladores del proyecto.</span></p><p class="c36 c8"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="2"><li class="c3"><h2 id="h.22qhq3c86rfh-9" style="display:inline"><span class="c13">Aportaciones</span></h2></li></ol><p class="c19"><span class="c1">Ambos miembros del equipo han hecho aportaciones similares en el desarrollo de la aplicaci&oacute;n. S&iacute; cabe destacar, que al principio del desarrollo se acord&oacute; entre los dos compa&ntilde;eros que uno se encargar&iacute;a del m&oacute;dulo cervezas y el otro del m&oacute;dulo cervecer&iacute;as, en lo que concluy&oacute; que Carlos desarrollara el primero y V&iacute;ctor se hiciera cargo de la implementaci&oacute;n del segundo. Con respecto al m&oacute;dulo principal y el desarrollo de la capa de integraci&oacute;n, ambos miembros la han implementado a la par.</span></p><p class="c4"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="3"><li class="c3"><h2 id="h.22qhq3c86rfh-10" style="display:inline"><span class="c13">Metodolog&iacute;a</span></h2></li></ol><p class="c19"><span class="c1">La metodolog&iacute;a seguida por los integrantes del grupo se ha basado en la comunicaci&oacute;n diaria en la que cada compa&ntilde;ero comentaba los avances realizados desde la &uacute;ltima reuni&oacute;n o comunicaci&oacute;n. En dichas comunicaciones cada componente le comentaba al otro la idea que ten&iacute;a sobre la pr&oacute;xima iteraci&oacute;n que quer&iacute;a implementar.</span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span>En cuanto a la herramienta de control de versiones se ha usado GitHub. Los componentes del grupo acordaron realizar una rama </span><span class="c5">develop </span><span>a partir de la rama </span><span class="c5">master </span><span class="c1">en la que se subir&iacute;a las versiones estables de la aplicaci&oacute;n, as&iacute; mismo, se han realizado ramas principales a partir de la rama develop en la que se han ido implementando por separado los tres m&oacute;dulos de la aplicaci&oacute;n (Principal, Cervecer&iacute;as y Cervezas), desde la que los desarrolladores han ido creando subramas para implementar las diferentes iteraciones que han sido necesarias para el desarrollo de la aplicaci&oacute;n.</span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span>Por &uacute;ltimo, una vez que el desarrollo ha finalizado y la aplicaci&oacute;n se ha encontrado en su versi&oacute;n m&aacute;s estable, el proyecto ha sido subido a la rama </span><span class="c5">master </span><span class="c1">desde la que se ha preparado la entrega del proyecto.</span></p><p class="c4"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-1" start="4"><li class="c3"><h2 id="h.22qhq3c86rfh-11" style="display:inline"><span class="c13">Conclusiones</span></h2></li></ol><p class="c19"><span class="c1">Ambos miembros del equipo estamos de acuerdo en que la realizaci&oacute;n del proyecto ha sido &nbsp;satisfactoria y que la experiencia ha servido para incrementar nuestros conocimientos sobre el desarrollo de aplicaciones nativas Android.</span></p><p class="c0"><span class="c1"></span></p><p class="c19"><span class="c1">Pese a los errores que han ido surgiendo en la realizaci&oacute;n de la aplicaci&oacute;n, los cuales nos han servido para mejorar nuestra perspectiva y recursos previos al surgimiento de los mismos, podemos dar por concluida la aplicaci&oacute;n habiendo satisfecho los requisitos previos a la puesta en marcha del proyecto.</span></p><p class="c0"><span class="c1"></span></p><ol class="c12 lst-kix_5pjpt7rdaq9n-0" start="7"><li class="c6"><h1 id="h.4qozir216juv" style="display:inline"><span class="c17">Bibliograf&iacute;a</span></h1></li></ol><ul class="c12 lst-kix_s8rfwdfwkwu-0 start"><li class="c22"><span class="c1">Documentaci&oacute;n:</span></li></ul><ul class="c12 lst-kix_s8rfwdfwkwu-1 start"><li class="c16"><span>Android Developers Docs: </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://developer.android.com/docs?hl%3Des-419&amp;sa=D&amp;ust=1560439359776000">https://developer.android.com/docs?hl=es-419</a></span></li><li class="c16"><span>Desarrollador Android: </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://desarrollador-android.com/&amp;sa=D&amp;ust=1560439359777000">https://desarrollador-android.com/</a></span></li><li class="c16"><span>Material Design </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://material.io/&amp;sa=D&amp;ust=1560439359777000">https://material.io/</a></span></li><li class="c16"><span>Mapbox Docs: </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://docs.mapbox.com/&amp;sa=D&amp;ust=1560439359778000">https://docs.mapbox.com/</a></span></li><li class="c16"><span>GitHub: </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://github.com/&amp;sa=D&amp;ust=1560439359778000">https://github.com/</a></span></li></ul><p class="c0 c11"><span class="c1"></span></p><ul class="c12 lst-kix_s8rfwdfwkwu-0"><li class="c22"><span class="c1">Recursos:</span></li></ul><ul class="c12 lst-kix_s8rfwdfwkwu-1 start"><li class="c16"><span>Icons8: </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://iconos8.es/&amp;sa=D&amp;ust=1560439359779000">https://iconos8.es/</a></span></li><li class="c16"><span>Material Palette: </span><span class="c26"><a class="c7" href="https://www.google.com/url?q=https://www.materialpalette.com/&amp;sa=D&amp;ust=1560439359779000">https://www.materialpalette.com/</a></span></li></ul><div><p class="c41 c44"><span class="c1">Memoria - PAD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Autores: Carlos Castellanos y V&iacute;ctor Chamizo</span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 176.00px; height: 345.14px;"><img alt="" src="images/image2.png" style="width: 176.00px; height: 371.81px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p></div></body></html>
+**Programación de Aplicaciones para Dispositivos Móviles**
+
+**MEMORIA DE PROYECTO**
+
+![](media/image10.png){width="2.5468755468066493in"
+height="2.921415135608049in"}
+
+**Autores: Carlos Castellanos y Víctor Chamizo**
+
+**ÍNDICE**
+
+1.  Introducción
+    > .......................................................................................\...\....
+    > 2
+
+2.  Manual de instalación
+    > ..............................................................................\...
+    > 2
+
+    1.  Introducción
+        ................................................................................
+        2
+
+    2.  Requisitos
+        ..................................................................................
+        2
+
+    3.  Instalación del APK
+        ......................................................................
+        3
+
+    4.  Configuración de proyecto en Android Studio
+        ..................................\... 3
+
+3.  Manual de usuario
+    > .....................................................................................
+    > 3
+
+    5.  Introducción
+        ................................................................................
+        3
+
+    6.  Funcionalidad
+        ...........................................................................\...
+        4
+
+    7.  Módulos
+        .....................................................................................
+        4
+
+        1.  Principal
+            > ........................................................................\...\.....
+            > 4
+
+        2.  Cervecerías
+            > ..........................................................................
+            > 5
+
+        3.  Cervezas
+            > .....................................................................\......\...
+            > 6
+
+4.  Arquitectura
+    > ..............................................................................................
+    > 7
+
+    8.  Introducción
+        ................................................................................
+        7
+
+    9.  Diseño
+        ....................................................................................\...
+        7
+
+5.  Consideraciones técnicas
+    > ...........................................................................
+    > 8
+
+    10. Introducción
+        ................................................................................
+        8
+
+    11. General
+        ......................................................................................
+        8
+
+    12. Módulos
+        .....................................................................................
+        9
+
+        4.  Principal
+            > ........................................................................\...\.....
+            > 9
+
+        5.  Cervecerías y cervezas
+            > ...........................................................
+            > 9
+
+6.  Desarrollo
+    > ................................................................................................
+    > 9
+
+    13. Introducción
+        ................................................................................
+        9
+
+    14. Aportaciones
+        .............................................................................
+        10
+
+    15. Metodología de trabajo
+        ................................................................
+        10
+
+    16. Conclusiones
+        .............................................................................
+        10
+
+7.  Bibliografía
+    > .............................................................................................
+    > 11
+
+Introducción
+============
+
+Este documento de memoria es realizado para el proyecto de la asignatura
+de Programación de Aplicaciones para Dispositivos Móviles (PAD).
+
+El documento proporciona las indicaciones y herramientas necesarias para
+el uso correcto de la aplicación móvil MyBeer. Además, contiene un
+desglose detallado de la arquitectura interna y consideraciones técnicas
+llevadas a cabo en el desarrollo del proyecto, con la finalidad de poder
+acercar al usuario al entendimiento completo de la aplicación, y así
+mismo, ratificar la correcta implementación de los requisitos impuestos
+por el profesor de la asignatura para llevar a cabo dicho proyecto.
+
+La aplicación fue diseñada para la gestión de cervecerías y cervezas por
+parte del usuario, con la finalidad de poder localizar los
+establecimientos en un mapa y poder guardar la información de dichos
+elementos para que el usuario pueda acceder a ellos siempre que quiera.
+
+2.  Manual de instalación
+    =====================
+
+    1.  Introducción
+        ------------
+
+Esta sección proporciona los detalles y requerimientos para la correcta
+instalación de la aplicación móvil MyBeer, así como una correcta
+configuración de la misma en el SDK elegido para su desarrollo y
+despliegue.
+
+Requisitos
+----------
+
+La aplicación para este proyecto está desarrollada de forma nativa para
+Android, por lo que el dispositivo del usuario ha de tener dicho sistema
+instalado.
+
+Además, el sistema operativo debe tener como mínimo la versión 23 de
+compilación del SDK (Android 6.0, Marshmallow), aunque la versión de SDK
+que se ha utilizado para el desarrollo de la aplicación es la 28
+(Android 9.0, Pie).
+
+La aplicación precisa de localización mediante GPS por lo que será
+necesario tener activada esta opción en nuestro dispositivo móvil, así
+como acceso a la red de datos o a una red wifi. Así mismo, la primera
+vez que iniciemos la aplicación, esta nos solicitará permisos para poder
+acceder a dichos servicios GPS.
+
+Instalación del APK
+-------------------
+
+A continuación se detallan los pasos a seguir para la correcta
+instalación de la aplicación en el dispositivo móvil:
+
+1.  Descargar el archivo *myBeerInstaller.apk* en el móvil.
+
+2.  Ejecutar el archivo *myBeerInstaller.apk*.
+
+3.  Por motivos de seguridad, Android suele tener desactivado el permiso
+    para instalar aplicaciones ajenas a Play Store (*Aplicaciones de
+    origen desconocido*). En caso de tener esta opción habilitada, se
+    puede pasar directamente al paso 4.
+
+En caso contrario, se le pedirá que active este permiso y se le
+redirigirá a la ventana de ajustes donde aparece tal opción. También se
+puede acceder directamente mediante los siguientes pasos:
+
+Ajustes \> Ajustes avanzados \> Seguridad \> Aplicaciones de origen
+desconocido.
+
+NOTA: La navegación a través de los ajustes puede variar ligeramente en
+función de la versión de Android y de la capa de personalización del
+fabricante.Se recomienda volver a desactivar esta opción una vez
+instalada la aplicación
+
+4.  Volver a ejecutar el archivo *myBeerInstaller.apk* y finalizar la
+    instalación.
+
+    4.  Configuración de proyecto en Android Studio
+        -------------------------------------------
+
+En primer lugar debemos abrir el proyecto en Android Studio (File \>
+Open\...). A continuación, debemos construir el proyecto para su
+correcto uso y para que todas las librerías e importaciones de API´s
+externas funcionen correctamente (Build \> Make Project).
+
+Una vez que el proceso anteriormente descrito finalice, nuestro proyecto
+estará listo para continuar con su desarrollo.
+
+3.  Manual de usuario
+    =================
+
+    5.  Introducción
+        ------------
+
+Este manual proporciona los detalles y requerimientos para el uso de la
+aplicación móvil MyBeer. Los siguientes epígrafes proporcionan los
+detalles y requerimientos necesarios para el uso correcto de la
+aplicación móvil, con la finalidad de brindar al usuario una herramienta
+que asegure un uso satisfactorio de la misma.
+
+Funcionalidad
+-------------
+
+La funcionalidad principal de la aplicación está formada por tres
+módulos (Principal, Cervecerías y Cervezas), que son accesibles a través
+de un menú lateral. A dicho menú podrá accederse pulsando sobre el botón
+superior izquierdo de la interfaz o bien deslizando el dedo desde la
+parte izquierda de la pantalla hacia la parte derecha.
+
+Los distintos módulos y sus funcionalidades será explicados en el
+siguiente epígrafe (3.3 Módulos).
+
+7.  Módulos
+    -------
+
+    1.  ### Principal
+
+El módulo principal consiste en un mapa que nos mostrará nuestra
+geolocalización, así como las cervecerías (en caso de tener alguna)
+situadas en sus respectivas localizaciones.
+
+![](media/image8.png){width="1.8333333333333333in"
+height="3.5873873578302713in"}![](media/image9.png){width="1.8333333333333333in"
+height="3.5784317585301837in"}
+
+Figura 3.3.1.1 Figura 3.3.1.2
+
+Las cervecerías pueden mostrarse de diferentes colores según su estado.
+En primer lugar, las cervecerías que se encuentran en color amarillo son
+las que el usuario ha calificado como positivas ("Me gusta"), por otro
+lado aquellas que se encuentran de color rojo son aquellas calificadas
+de forma negativa ("No me gusta"), por último, podemos encontrarnos
+cervecerías en color gris, lo que significa que el usuario la ha
+introducido como "pendiente", es decir, aún no las ha visitado (Figura
+3.3.1.1).
+
+Cabe destacar que al pulsar sobre una cervecería, aparecerá el nombre
+que el usuario eligió para ella en el momento de añadirlas.
+
+Y por último, en la parte inferior derecha podemos observar un botón
+flotante, el cual si pulsamos sobre él, nos redirigirá de forma
+automática a nuestra posición en el mapa (Figura 3.3.1.2).
+
+### Cervecerías
+
+El módulo 'cervecerías' tiene dos funcionalidades principales: añadir
+una nueva cervecería y listar las cervecerías que el usuario ha
+guardado.
+
+La primera funcionalidad consiste en un formulario en el que tendremos
+que introducir la dirección de la cervecería (una vez seleccionada
+podremos visualizarla en el mapa), el nombre que el usuario quiere darle
+a dicha cervecería y el estado; recordemos que estos estados son: "Me
+gusta", "No me gusta" y "Pendiente".
+
+Una vez hayamos completado el formulario podremos añadir la cervecería
+pulsando sobre el botón situado en la parte inferior (Figura 3.3.2.1).
+
+NOTA: todos los campos deben estar completados, de lo contrario nos
+aparecerá un mensaje de advertencia indicándonos el error y no podremos
+añadir la cervecería cuando pulsemos el botón.
+
+La otra funcionalidad principal de este módulo consiste en una lista con
+las diferentes cervecerías que el usuario ha ido añadiendo (Figura
+3.3.2.2). En cada una de las cervecerías listadas podemos apreciar que
+aparece indicado su nombre y el icono que refleja el estado de la
+cervecería, siguiendo el mismo patrón que se ha comentado en el módulo
+anterior (3.3.1. Principal).
+
+Además se podrá eliminar una cervecería de la lista pulsando en la 'X'
+que aparece a su derecha.
+
+Por último, al pulsar sobre cada una de las cervecerías listadas nos
+redirigirá a una vista donde podremos apreciar la información de la
+cervecería con más detalle (Figura 3.3.2.3).
+
+![](media/image1.png){width="1.8333333333333333in"
+height="3.573969816272966in"}![](media/image6.png){width="1.8541666666666667in"
+height="3.5713779527559053in"}![](media/image4.png){width="1.9391491688538933in"
+height="3.59375in"}
+
+Figura 3.3.2.1 Figura 3.3.2.2 Figura 3.3.2.3
+
+### Cervezas
+
+El módulo 'cervezas' al igual que el módulo cervecerías está constituido
+de dos funcionalidades principales: añadir una nueva cerveza y listas
+las cervezas guardadas por el usuario.
+
+En la funcionalidad añadir tendremos un formulario muy similar al
+utilizado en añadir cervecería, en el que tendremos que completar todos
+los campos mostrados y proceder posteriormente a añadir una nueva
+cerveza (Figura 3.3.3.1). Al igual que en el módulo anterior, es
+necesario que todos los campos del formulario estén completados para
+poder añadir la cerveza.
+
+La funcionalidad 'listar' consiste en mostrar, de forma idéntica a
+'listar cervecerías', el conjunto de cervezas guardadas por el usuario
+(Figura 3.3.3.2). Podremos pulsar sobre cada una de las cervezas, lo que
+nos mostrará una interfaz más detallada con la información de dicha
+cerveza (Figura 3.3.3.3).
+
+Además, aquí también podremos eliminar una cerveza al igual que en el
+anterior módulo: pulsando sobre la 'X' a la derecha en la lista.
+
+![](media/image3.png){width="1.875in"
+height="3.6657305336832895in"}![](media/image7.png){width="1.8541666666666667in"
+height="3.6240529308836393in"}![](media/image2.png){width="1.875in"
+height="3.6474606299212597in"}
+
+Figura 3.3.3.1 Figura 3.3.3.2 Figura 3.3.3.3
+
+4.  Arquitectura
+    ============
+
+    8.  Introducción
+        ------------
+
+En el siguiente capítulo se detallarán las diferentes capas de las que
+consta la aplicación, así como la organización interna de la misma, con
+el fin de que la aplicación sea mantenible y fácil de comprender para
+posibles desarrollos de mejora o ampliación en el futuro.
+
+Diseño
+------
+
+La aplicación sigue una arquitectura multicapa; cada una de dichas capas
+sigue una finalidad de abstracción bien diferenciadas, aportando así
+completa independencia unas de otras. A continuación, detallaremos cada
+una de las capas:
+
+-   *Capa de presentación*: representada por el paquete *activities*, es
+    > la encargada de renderizar las vistas para que el usuario obtenga
+    > el resultado esperado en todo momento. Esta capa, aunque no se
+    > encarga de la lógica de la aplicación, si realiza pequeñas
+    > validaciones que están estrechamente ligadas al formato de entrada
+    > (por ejemplo para evitar que los datos lleguen con campos vacíos),
+    > y así, de esta forma, garantizar que la experiencia de usuario sea
+    > más satisfactoria.
+
+-   *Capa de negocio*: formada por los servicios de la aplicación, se
+    > encuentra ubicada en el paquete model. En esta capa tiene lugar
+    > toda la lógica de la aplicación, encargada de que se cumplan las
+    > reglas de negocio necesarias para el correcto funcionamiento de la
+    > misma. Existe un servicio de aplicación por cada módulo
+    > (Principal, Cervecería y Cerveza).
+
+-   *Capa de integración*: capa encargada de comunicarse con el
+    > dispositivo móvil para la lectura y escritura de los datos
+    > necesarios para que la aplicación se desarrolle correctamente. Se
+    > encuentra en el paquete *wrapper* y está formada por una única
+    > clase llamada *FileManager* que se encarga de implementar los
+    > métodos de todos los módulos.
+
+5.  Consideraciones técnicas
+    ========================
+
+    10. Introducción
+        ------------
+
+En el siguiente capítulo se detallarán los aspectos técnicos llevados a
+cabo a lo largo del desarrollo de la aplicación tratando así de plasmar
+de forma clara y concisa que la declaración de requisitos previos al
+desarrollo del proyecto han sido implementados satisfactoriamente.
+
+General
+-------
+
+Como parte generalizada de la implementación de los requisitos podemos
+destacar la presencia en toda la aplicación de los siguientes aspectos:
+
+-   *Visualización apropiada en diferentes configuraciones de pantalla*:
+    > se ha cuidado el aspecto visual de la de aplicación incidiendo
+    > especialmente en la visualización vertical de la misma, además se
+    > ha probado en múltiples plataformas con diferentes configuraciones
+    > de pantalla con el fin de que la aplicación tenga un uso óptimo y
+    > satisfactorio en el mayor número de dispositivos posibles.
+
+-   *Almacenamiento permanente de la información*: toda el desarrollo
+    > relacionado con el almacenamiento de la información de la
+    > aplicación (cervecerías y cervezas) se ha concebido de forma que
+    > dicha información quede registrada de forma permanente en el
+    > dispositivo del usuario. De esta forma logramos que el intercambio
+    > de información sea más rápido, mejorando así, la experiencia del
+    > usuario.
+
+    12. Módulos
+        -------
+
+        4.  ### Principal
+
+En el módulo principal se ha implementado el requisito: *uso de al menos
+un servicio externo a la aplicación*. Se ha utilizado la API de mapas
+MapBox que nos ha permitido implementar la renderización del mapa que
+muestra la geolocalización del dispositivo del usuario así como
+visualizar el posicionamiento de las diferentes cervecerías que el
+usuario haya querido guardar.
+
+Además de las características comentadas anteriormente este servicio
+externo nos permite navegar con total libertad por todo el mapa
+renderizado así como hacer búsquedas completas o parciales de
+localizaciones en cualquier parte de dicho mapa.
+
+### Cervecerías y cervezas
+
+En ambos módulos se han implementado los siguientes requisitos:
+
+-   *Un mínimo de dos formularios diferentes*: a la hora de registrar
+    una nueva cervecería o cerveza el usuario cuenta con dos formularios
+    diferenciados (cada uno accesible desde su parte correspondiente del
+    módulo) en el que se ven reflejados los distintos campos necesarios
+    para completar la información de registro de ambos módulos.
+
+-   *Una parte desarrollada con tecnologías web, con interacción con la
+    parte nativa*: al igual que con el requisito anterior, cada módulo
+    consta de una página web que consiste en mostrar la información
+    relacionada con la cervecería o cerveza seleccionada desde la lista
+    de la interfaz anterior, pudiendo interaccionar con la parte nativa
+    pulsando el botón *back* de la parte superior izquierda de la
+    pantalla que nos permite retornar a las listas anteriormente
+    mostradas.
+
+6.  Desarrollo
+    ==========
+
+    13. Introducción
+        ------------
+
+En el siguiente capítulo se comentará cada una de las aportaciones que
+han hecho los componentes del grupo a lo largo de la implementación del
+proyecto así como las herramientas de desarrollo empleadas y las
+conclusiones finales que la realización de este proyecto les haya podido
+generar a los desarrolladores del proyecto.
+
+Aportaciones
+------------
+
+Ambos miembros del equipo han hecho aportaciones similares en el
+desarrollo de la aplicación. Sí cabe destacar, que al principio del
+desarrollo se acordó entre los dos compañeros que uno se encargaría del
+módulo cervezas y el otro del módulo cervecerías, en lo que concluyó que
+Carlos desarrollara el primero y Víctor se hiciera cargo de la
+implementación del segundo. Con respecto al módulo principal y el
+desarrollo de la capa de integración, ambos miembros la han implementado
+a la par.
+
+Metodología
+-----------
+
+La metodología seguida por los integrantes del grupo se ha basado en la
+comunicación diaria en la que cada compañero comentaba los avances
+realizados desde la última reunión o comunicación. En dichas
+comunicaciones cada componente le comentaba al otro la idea que tenía
+sobre la próxima iteración que quería implementar.
+
+En cuanto a la herramienta de control de versiones se ha usado GitHub.
+Los componentes del grupo acordaron realizar una rama *develop* a partir
+de la rama *master* en la que se subiría las versiones estables de la
+aplicación, así mismo, se han realizado ramas principales a partir de la
+rama develop en la que se han ido implementando por separado los tres
+módulos de la aplicación (Principal, Cervecerías y Cervezas), desde la
+que los desarrolladores han ido creando subramas para implementar las
+diferentes iteraciones que han sido necesarias para el desarrollo de la
+aplicación.
+
+Por último, una vez que el desarrollo ha finalizado y la aplicación se
+ha encontrado en su versión más estable, el proyecto ha sido subido a la
+rama *master* desde la que se ha preparado la entrega del proyecto.
+
+Conclusiones
+------------
+
+Ambos miembros del equipo estamos de acuerdo en que la realización del
+proyecto ha sido satisfactoria y que la experiencia ha servido para
+incrementar nuestros conocimientos sobre el desarrollo de aplicaciones
+nativas Android.
+
+Pese a los errores que han ido surgiendo en la realización de la
+aplicación, los cuales nos han servido para mejorar nuestra perspectiva
+y recursos previos al surgimiento de los mismos, podemos dar por
+concluida la aplicación habiendo satisfecho los requisitos previos a la
+puesta en marcha del proyecto.
+
+Bibliografía
+============
+
+-   Documentación:
+
+    -   Android Developers Docs:
+        [[https://developer.android.com/docs?hl=es-419]{.underline}](https://developer.android.com/docs?hl=es-419)
+
+    -   Desarrollador Android:
+        [[https://desarrollador-android.com/]{.underline}](https://desarrollador-android.com/)
+
+    -   Material Design
+        [[https://material.io/]{.underline}](https://material.io/)
+
+    -   Mapbox Docs:
+        [[https://docs.mapbox.com/]{.underline}](https://docs.mapbox.com/)
+
+    -   GitHub: [[https://github.com/]{.underline}](https://github.com/)
+
+-   Recursos:
+
+    -   Icons8: [[https://iconos8.es/]{.underline}](https://iconos8.es/)
+
+    -   Material Palette:
+        [[https://www.materialpalette.com/]{.underline}](https://www.materialpalette.com/)
