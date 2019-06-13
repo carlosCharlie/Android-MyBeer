@@ -1,3 +1,5 @@
+(Converted from an original docx document)
+
 # MEMORIA DE PROYECTO
 
 <p align="center"><img src='media/image10.png' width='70%' height='70%'><p>
