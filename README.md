@@ -2,7 +2,7 @@
 
 <h1 align="center">MEMORIA DE PROYECTO</h1>
 
-<p align="center"><img src='media/image10.png' width='70%' height='70%'><p>
+<p align="center"><img src='media/image10.png' width='60%' height='60%'><p>
 
 **Autores: Carlos Castellanos y Víctor Chamizo**
 
